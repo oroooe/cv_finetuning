@@ -1,4 +1,4 @@
-### MLP, CNN 
+## MLP, CNN 
 ##### 문제2-1 ) EuroSAT 데이터셋전처리 
 
 ##### 문제2-2 ) MLP모델구현 
@@ -8,7 +8,7 @@
 ##### 문제2-4 ) MLP,CNN 모델학습, 결과분석
 
 
-### Segmentation Test
+## Segmentation Test
 
 ##### 문제3-1 ) Segmentation 모델선택 (Mask R-CNN) , Segmentation테스트 
 
