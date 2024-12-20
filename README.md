@@ -1,4 +1,4 @@
-# cv_1) 특징추출
+# cv_1) 이미지 특징추출후 SVM학습, 예측값생성
 
 ### 1-1) 이미지특징 추출
 ##### 이미지에서 특징추출 (SIFT descriptor) 
@@ -15,7 +15,7 @@
 ##### Confusion Matrix생성 (Confusion_Matrix = confusion_matrix(y_test, y_pred))
  
 <br><br> 
-# cv_2) MLP, CNN 구현
+# cv_2) MLP,CNN구현, 학습, 성능평가
 
 ### 2-1 ) EuroSAT 데이터셋전처리 
 ##### - EuroSAT데이터셋 다운로드, 전처리
@@ -38,7 +38,7 @@
 ##### - (MLP:1차원벡터변환으로 공간구조손실 / CNN:공간구조유지한 convolution연산구조)
 
 <br><br>  
-# cv_3) Segmentation Test
+# cv_3) Segmentation 모델 finetuning, 성능평가 
 
 ### 3-1 ) Segmentation 모델선택  , Segmentation테스트 
 ##### - 모델 : COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml  
