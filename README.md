@@ -14,7 +14,7 @@
 ##### 모델예측값생성 (y_pred = mode.predict(X_test))
 ##### Confusion Matrix생성 (Confusion_Matrix = confusion_matrix(y_test, y_pred))
  
-<br> 
+<br><br> 
 # cv_2) MLP, CNN 구현
 
 ### 2-1 ) EuroSAT 데이터셋전처리 
@@ -37,7 +37,7 @@
 ##### - 테스트데이터셋으로 성능평가하여 CNN성능이 더좋음을확인  
 ##### - (MLP:1차원벡터변환으로 공간구조손실 / CNN:공간구조유지한 convolution연산구조)
 
-<br> 
+<br><br>  
 # cv_3) Segmentation Test
 
 ### 3-1 ) Segmentation 모델선택  , Segmentation테스트 
